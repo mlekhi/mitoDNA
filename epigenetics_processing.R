@@ -38,6 +38,11 @@ detP <- suppressMessages(detectionP(rgSet))
 ##    Quality Control   ####
 ############################
 
+# consider doing some outlier removal
+# create a scree plot to plot your PCs and your percentage of explained variance
+# explained variance over 5% is concerning
+# plot your top pcs in a density plot, remove any values with a dot in a weird place
+
 # Track how many samples were removed due to poor quality
 samples_before <- dim(rgSet)[2]
 
