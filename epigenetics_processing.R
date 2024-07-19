@@ -13,6 +13,8 @@ setwd("/home/mlekhi/projects/def-ccastel/SharedResources/CLSA_private/data/epige
 suppressMessages(library(minfi))
 suppressMessages(library(IlluminaHumanMethylationEPICanno.ilm10b4.hg19))
 
+# check if everything is set for the 850k array
+
 ############################
 ### Load data into minfi ###
 ############################
