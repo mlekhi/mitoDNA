@@ -129,7 +129,12 @@ bVals <- getBeta(mSetSqFlt)
 head(bVals)
 dim(bVals)
 
+mVals <- getM(mSetSqFlt)
+head(mVals)
+dim(mVals)
+
 # writing results to a CSV
 write.csv(bVals, file = "../../maya_bVals_rows.csv", quote = FALSE)
+write.csv(mVals, file = "../../maya_mVals_rows.csv", quote = FALSE)
 
 save.image("/home/mlekhi/projects/def-ccastel/mlekhi/QC.RData")
